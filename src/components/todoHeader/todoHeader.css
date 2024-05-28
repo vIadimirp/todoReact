@@ -1,0 +1,30 @@
+div.todoHeader {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+input.todoHeader__input {
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 20px;
+}
+button.todoHeader__button {
+    transition: .3s all;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    right: 8px;
+    border-radius: 10px;
+    color: #777;
+    font-weight: 200;
+    background-color: transparent;
+    line-height: 1;
+    border-radius: 10px;
+} button.todoHeader__button:hover {
+    background-color: #eaeaea;
+} button.todoHeader__button:active {
+    background-color: #dadada;
+}

@@ -1,0 +1,47 @@
+div.todoItemEditing {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    gap: 10px;
+    height: 57px;
+}
+
+div.todoItemEditing__left, div.todoItemEditing__right {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+div.todoItemEditing__left {
+    width: 100%;
+}
+
+input.todoItemEditing__input {
+    transition: .3s all;
+    line-height: 1;
+    background-color: #eaeaea;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    position: relative;
+} input.todoItemEditing__input:focus {
+    background-color: transparent;
+}
+
+button.todoItemEditing__apply, button.todoItemEditing__cancel {
+    transition: .3s all;
+    padding: 5px;
+    background-color: #eaeaea;
+    line-height: 1;
+    border-radius: 5px;
+} button.todoItemEditing__apply:hover, button.todoItemEditing__cancel:hover {
+    background-color: #dadada;
+} button.todoItemEditing__apply {
+    color: #080;
+} button.todoItemEditing__cancel {
+    color: #800;
+}

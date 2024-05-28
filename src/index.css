@@ -1,0 +1,16 @@
+@import url("./reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;300;400;500;600&display=swap');
+
+
+body {
+    background-color: #fff;
+    min-height: 100vh;
+    position: relative;
+    font-family: "Open Sans", "sans-serif";
+}
+
+div#root {
+    width: 100%;
+    min-height: 100vh;
+    background-color: transparent;
+}

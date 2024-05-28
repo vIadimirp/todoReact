@@ -1,0 +1,36 @@
+div.todoItem {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    height: 57px;
+}
+
+div.todoItem__left, div.todoItem__right {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+div.todoItem__title {
+    line-height: 1;
+}
+
+button.todoItem__toggle, button.todoItem__edit, button.todoItem__delete {
+    transition: .3s all;
+    padding: 5px;
+    background-color: transparent;
+    line-height: 1;
+    border-radius: 5px;
+} button.todoItem__toggle:hover, button.todoItem__edit:hover, button.todoItem__delete:hover {
+    background-color: #eaeaea;
+} button.todoItem__toggle {
+    color: #888;
+} button.todoItem__toggle.active {
+    color: #080;
+} button.todoItem__edit {
+    color: #008;
+} button.todoItem__delete {
+    color: #800;
+}

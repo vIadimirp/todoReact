@@ -1,0 +1,21 @@
+/* div.todoFooter {} */
+
+div.todoFooter__filters {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+button.todoFooter__filter {
+    transition: .3s all;
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #dadada;
+    font-size: 20px;
+} button.todoFooter__filter.active {
+    background-color: #fff;
+} button.todoFooter__filter:not(.active):hover {
+    background-color: #cacaca;
+}
